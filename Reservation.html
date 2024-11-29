@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylereservation.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+<body>
+    
+    <div>
+        <h1><a href="index.html">Estrella Burger Bar</a></h1>
+        <h2><a href="Reservation.html">Reservation</a></h2>
+        <h3><a href="Menu.html">Menu</a></h3>
+        <h4><a href="contact.html">Contact</a></h4>
+    </div>
+    <div>
+        
+        
+
+        <div class="container">
+            <!-- Reservation Form -->
+            <div class="form-container">
+
+                <p>Reservate Here</p>
+              
+                <form action="#" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+        
+                    <label for="date">Reservation Date</label>
+                    <input type="date" id="date" name="date" required>
+        
+                    <label for="time">Reservation Time</label>
+                    <input type="time" id="time" name="time" required>
+        
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" name="guests" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8+</option>
+
+                        
+                    </select>
+                     
+
+
+                <div>
+                    
+                    <button type="submit">Reserve Table</button>
+                    
+                </div>
+                
+            </form>
+
+
+                
+        </div>
+             
+            
+        
+        
+        </div>
+            
+          <div class="container2"> 
+            <h5>Select Your Food Allergies</h5>
+            <form action="#">
+                <label for="peanuts">
+                    <div class="Checkbox"><input type="checkbox" id="peanuts" name="allergy" value="peanuts">
+                    Peanuts
+                
+                </label><br>
+        
+                <label for="gluten">
+                    <input type="checkbox" id="gluten" name="allergy" value="gluten">
+                    Gluten
+                </label><br>
+        
+                <label for="dairy">
+                    <input type="checkbox" id="dairy" name="allergy" value="dairy">
+                    Dairy
+                </label><br>
+        
+                <label for="eggs">
+                    <input type="checkbox" id="eggs" name="allergy" value="eggs">
+                    Eggs
+                </label><br>
+        
+                <label for="shellfish">
+                    <input type="checkbox" id="shellfish" name="allergy" value="shellfish">
+                    Shellfish
+                </label><br>
+        
+                <label for="tree-nuts">
+                    <input type="checkbox" id="tree-nuts" name="allergy" value="tree-nuts">
+                    Tree Nuts
+                </label><br>
+        
+                <label for="soy">
+                    <input type="checkbox" id="soy" name="allergy" value="soy">
+                    Soy
+                </label><br>
+        
+                <label for="wheat">
+                    <input type="checkbox" id="wheat" name="allergy" value="wheat">
+                    Wheat
+                </label><br>
+
+                <label for="no Allergies">
+                    <input type="checkbox" id="no Allergies" name="allergy" value="no Allergies">
+                    No Allergies
+                </label><br>
+                
+                
+                <div>
+                <button type="submit">Submit</button>
+                
+                </div> 
+              
+            </form> 
+        </div> 
+            
+        </div>
+
+            
+            
+        
+
+        
+    </div>
+</body>
+</html>
